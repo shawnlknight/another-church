@@ -1,5 +1,5 @@
 import React from 'react'
-const {PropTypes} = React
+const { PropTypes } = React
 
 const icons = {
   facebook: 'M608 192h160v-192h-160c-123.514 0-224 100.486-224 224v96h-128v192h128v512h192v-512h160l32-192h-192v-96c0-17.346 14.654-32 32-32z',
@@ -17,13 +17,13 @@ const styles = {
 
 const Icon = props => (
   <svg width={props.width} height={props.height} viewBox="0 0 1024 1024">
-    <path style={styles[props.style]} d={icons[props.icon]}></path>
+    <path style={styles[props.styles]} d={icons[props.icon]}></path>
   </svg>
 )
 
 Icon.propTypes = {
   icon: PropTypes.string.isRequired,
-  style: PropTypes.string.isRequired,
+  styles: PropTypes.string.isRequired,
   width: PropTypes.string.isRequired,
   height: PropTypes.string.isRequired
 };
