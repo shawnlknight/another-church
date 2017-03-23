@@ -8,7 +8,7 @@ export default () => (
           We are a group of people seeking truth and authentic friendships.
         </h3>
         <p>
-          All voices are equally important here. If you want to find out more, please <a href="mailto:joeysvendsenbc@gmail.com" className="link underline-hover dark-red">reach out!</a>
+          All voices are equally important here. If you want to find out more, please <a href="mailto:joeysvendsenbc@gmail.com" className="link underline-hover dark-blue">reach out!</a>
         </p>
       </div>
     </div>
