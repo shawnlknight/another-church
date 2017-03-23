@@ -8,10 +8,10 @@ const icons = {
 
 const styles = {
   blue: {
-    fill: "#3b5998"
+    fill: '#3b5998'
   },
   red: {
-    fill: "#e7040f"
+    fill: '#e7040f'
   }
 }
 
@@ -26,6 +26,6 @@ Icon.propTypes = {
   styles: PropTypes.string.isRequired,
   width: PropTypes.string.isRequired,
   height: PropTypes.string.isRequired
-};
+}
 
 export default Icon
