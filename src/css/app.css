@@ -4,6 +4,10 @@ body {
   font-family: "avenir-next", "avenir" arial, sans-serif;
 }
 
+h1 {
+  font-family: "Oswald", "avenir-next", "avenir" arial, sans-serif;
+}
+
 .visuallyhidden {
   position: absolute;
   overflow: hidden;
