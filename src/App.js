@@ -6,7 +6,7 @@ import Header from './components/header'
 import Info from './components/info'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div>
         <Header />
@@ -18,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
